@@ -12,6 +12,7 @@ namespace ConsoleApp1
             Console.WriteLine("2nd number:");
             int num2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Operator:");
+            Console.WriteLine("+ - ÷ / x ×");
             string znamienko = Console.ReadLine();
 
             switch (znamienko)
