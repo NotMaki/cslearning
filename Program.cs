@@ -279,6 +279,8 @@ namespace learningcs
              * 
              * 
             --------------------------------------------------------------------------------------------------*/
+            string sus = "abcdef";
+            Console.WriteLine(sus.Substring(1, 4));
 
 
 
