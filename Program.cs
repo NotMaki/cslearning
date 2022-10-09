@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 /* Lines:
  *      36 --> uppercase lowercase 
@@ -176,7 +177,7 @@ namespace learningcs
 
 
             /*string x;
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Yellow; 
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
             x = Console.ReadLine();
@@ -279,8 +280,40 @@ namespace learningcs
              * 
              * 
             --------------------------------------------------------------------------------------------------*/
-            string sus = "abcdef";
+            /*
+            string x = Console.ReadLine();
+            string sus = "x";
             Console.WriteLine(sus.Substring(1, 4));
+            */
+
+
+            /*--------------------------------------------------------------------------------------------------
+             * 
+             * 
+             * 
+             * 
+             * 
+             * 
+             *
+             * 
+             * 
+             * 
+             * 
+             * 
+             * 
+            --------------------------------------------------------------------------------------------------*/
+
+
+            int age = 16;
+            string name = "Jarko Tribulka";
+
+            //1. string concatenation
+            Console.WriteLine("My name is " + name + " and i am " + age + " years old.");
+
+            //2. string formatting
+            //string formatting uses indexes
+            Console.WriteLine("My name is {0} and i am {1} years old.", name, age);
+
 
 
 
